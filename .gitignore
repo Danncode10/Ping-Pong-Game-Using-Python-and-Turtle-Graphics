@@ -1,0 +1,102 @@
+# === Python Files ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyc
+
+# Bytecode cache
+__pycache__/
+
+# === Virtual Environments ===
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Distribution / Packaging ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Logs and Debugging ===
+*.log
+*.pot
+*.pydevproject
+
+# === IDEs and Editors ===
+
+# VS Code
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Eclipse
+.project
+.pydevproject
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# === System Files ===
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# === Environment Variables ===
+.env
+.env.*
+
+# === Test Coverage ===
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# === mypy / linting ===
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# === PyInstaller ===
+*.spec
